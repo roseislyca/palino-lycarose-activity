@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/login.js"></script>
+</head>
+<style>
+    body {
+    background-color: rgb(101, 230, 161);
+}
+</style>
+<body>
+    <div class="form-container">
+        <h1>
+            <center>Simple Login</center>
+        </h1>
+        <center><p id="error"></p></center>
+        <form>
+            <label class="LabelStyle">Username:</label>
+            <input class="text" id="username">
+
+            <br />
+            <br />
+            <label class="LabelStyle">Password:</label>
+            <input class="text" id="password">
+
+            <br />
+            <br />
+
+            <center><button type="forgot" href="#" onclick="forgot()">Forgot password</button></center>
+
+            <br />
+
+            <center><button type="button" href="#" onclick="login()">LOGIN</button></center>
+
+            <br />
+
+            <center><a class="button" href="register.html">Register Here</a></center>
+        </form>
+    </div>
+</body>
+
+</html>

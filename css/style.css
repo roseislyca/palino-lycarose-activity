@@ -1,0 +1,99 @@
+.form-container {
+    width: 25%;
+    margin: 0 auto;
+    margin-top: 75px;
+    padding: 20px;
+    border: 2px solid #060000;
+    border-radius: 5px;
+}
+
+.text {
+    background-color: gray;
+}
+
+label {
+    display: inline-block;
+    font-size: 30px;
+    width: 30%;
+    padding: 7px 20px;
+    margin: 6px 0;
+    color: black;
+}
+
+input {
+    display: inline-block;
+    width: 50%;
+    padding: 12px 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+select {
+    width: 50%;
+    padding: 12px 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 5px;
+    background-color: gray;
+}
+
+#userLabel {
+    background-color: yellow;
+}
+
+#passlabel {
+    background-color: plum;
+}
+
+.LabelStyle {
+    background-color: rgb(132, 255, 0);
+}
+
+.forgot:link {
+    font-size: 20px;
+    color: violet;
+    font-style: none;
+}
+
+.forgot:hover {
+    font-size: 50px;
+    color: red;
+    background-color: yellowgreen;
+}
+
+.forgot:visited {
+    background-color: aquamarine;
+
+}
+
+.forgot:active {
+    background-color: aqua;
+
+}
+
+.button:link {
+    font-size: 25px;
+    color: cyan;
+    font-style: none;
+}
+
+.button:hover {
+    font-size: 25px;
+    color: greenyellow;
+    background-color: green;
+}
+
+.button:visited {
+    background-color: red;
+}
+
+.button:active {
+    background-color: blue;
+}
